@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 6.25%;
+}
+
+header {
+  display: block;
+  background-color: pink;
+  border: 1rem solid black;
+  border-radius: 10rem;
+  font-size: 16rem;
+  margin: 10rem;
+}
+header div {
+  display: inline-block;
+  margin: 15rem;
+}
+header nav {
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  margin: 15rem;
+}
+header li {
+  display: inline-block;
+  margin-left: 5rem;
+}
+
+main {
+  font-size: 16rem;
+}
+aside {
+  display: inline-block;
+  width: 30%;
+}
+aside article {
+  font-size: 24rem;
+  display: block;
+  height: 190rem;
+  border: 1rem solid black;
+  background-color: pink;
+  margin: 5rem;
+  border-radius: 10rem;
+  text-align: center;
+}
+main div {
+  display: inline-block;
+  width: 69%;
+  border: 1rem solid black;
+  background-color: pink;
+  text-align: justify;
+  height: 760rem;
+  position: absolute;
+  top: 80rem;
+}
